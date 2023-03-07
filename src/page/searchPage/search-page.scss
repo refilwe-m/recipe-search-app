@@ -1,0 +1,15 @@
+input {
+  padding: 10px;
+  border: none;
+  &[type="button"] {
+    background-color: aqua;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  &[type="search"] {
+    background-color: rgb(221, 237, 237);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+}
+
