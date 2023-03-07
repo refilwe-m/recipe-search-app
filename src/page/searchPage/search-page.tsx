@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import './search-page.scss'
+import "./search-page.scss";
 
 export const SearchPage = () => {
   const [ingredients, setIngredients] = useState<string[]>([]);
@@ -23,6 +23,7 @@ export const SearchPage = () => {
             }}
           />
         </section>
+        <sub>Ingredients</sub>
       </form>
       <section id="ingredients">
         <ul>{list(ingredients)}</ul>
